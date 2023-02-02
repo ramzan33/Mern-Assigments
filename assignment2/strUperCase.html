@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function upper_case(str) {
+            regexp = /^[A-Z]/;
+            if (regexp.test(str)) {
+                console.log(str+" first character is uppercase");
+            }
+            else {
+                console.log(str+" first character is not uppercase");
+            }
+        }
+        const str1='Ramzan'
+        const str2='ramzan'
+        upper_case(str1);
+        upper_case(str2);
+    </script>
+</body>
+
+</html>
